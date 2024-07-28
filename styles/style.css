@@ -1,0 +1,79 @@
+:root {
+    --fonte: monospace;
+}
+
+body {
+    color: white;
+    background: radial-gradient(circle, #00274D, #0033A0, #87CEEB);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: var(--fonte);
+}
+
+.titulo__destaque {
+    background-color: #51a3c4;
+    border: solid #51a3c4 4px;
+    font-weight: 600;
+}
+
+.subtitulo {
+    font-family: var(--fonte);
+    letter-spacing: 5px;
+    margin: 10px 0 200px 0;
+    font-size: 16px;
+}
+
+.mensagem {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.mensagem__numero {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte);
+    padding: 10px;
+    border: solid white 3px;
+}
+
+.mensagem__numero-titulo {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.mensagem__numero-box {
+    font-size: 60px;
+}
+
+.mensagem__maior-menor {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte);
+    gap: 13px;
+    align-items: center;
+}
+
+.mensagem__maior-menor__titulo {
+    font-size: 40px;
+}
+
+.entre {
+    font-size: 15px;
+    font-family: var(--fonte);
+    display: inline;
+}
+
+.new-game {
+    cursor: pointer;
+    padding: 7px;
+    border: solid white 2px;
+    border-radius: 5px;
+}

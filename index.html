@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Número Secreto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <script src="./js/sorteio.js" defer></script>
+    <script src="./js/voz.js" defer></script>
+    <script src="./js/validacao.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1 class="titulo">jogo do <span class="titulo__destaque">número secreto</span></h1>
+        <h3 class="subtitulo">Com comando de voz</h3>
+    </div>
+
+    <div id="chute" class="mensagem">
+        <div class="mensagem__numero">
+            <div class="mensagem__numero-titulo">Você disse:</div>
+            <span class="mensagem__numero-box">?</span>
+        </div>
+        <div class="mensagem__maior-menor">
+            <h3 class="mensagem__maior-menor__titulo">Diga um número!</h3>
+            <i class="mensagem__maior-menor__icone fa-solid fa-2x fa-microphone-lines"></i>
+        </div>
+    </div>
+
+    <h3 class="entre titulo__destaque">O Número Secreto está entre <span id="menor-valor">1</span> e <span id="maior-valor">1000</span>!</h3>
+</body>
+</html>
+
+<!-- maior btn <i class="fa-solid fa-circle-up fa-2x"></i>-->
+<!-- menor btn <i class="fa-solid fa-circle-down fa-2x"></i> -->
